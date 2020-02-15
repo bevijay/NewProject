@@ -20,5 +20,5 @@ response = WS.sendRequest(findTestObject('New Request'))
 
 WS.verifyResponseStatusCode(response, 200)
 print "1st integration"
-print "Comment added"
+print "Comment added..."
 
