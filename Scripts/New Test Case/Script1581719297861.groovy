@@ -18,7 +18,7 @@ import groovy.json.JsonSlurper as JsonSlurper
 
 response = WS.sendRequest(findTestObject('New Request'))
 
-WS.verifyResponseStatusCode(response, 200)
+WS.verifyResponseStatusCode(response, 210)
 print "1st integration"
 print "Comment added..."
 
